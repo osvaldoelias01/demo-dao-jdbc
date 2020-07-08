@@ -1,6 +1,7 @@
 package com.company;
 
 import model.entities.Department;
+import model.entities.Seller;
 
 public class Main {
 
