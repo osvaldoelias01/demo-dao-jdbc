@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df1b5bf3-9c95-466e-98e5-0202e02ba8a4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/dao/impl/DepartmentDaoJDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/dao/DepartmentDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="model.dao.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\osvaldo.elias\.IntelliJIdea2019.3\demo-dao-jdbc" />
       <recent name="C:\Users\osvaldo.elias\.IntelliJIdea2019.3\demo-dao-jdbc\src" />
@@ -91,7 +96,7 @@
       <workItem from="1594171309170" duration="948000" />
       <workItem from="1594203806918" duration="11867000" />
       <workItem from="1594368766562" duration="8755000" />
-      <workItem from="1594493186421" duration="10870000" />
+      <workItem from="1594493186421" duration="21465000" />
     </task>
     <servers />
   </component>
@@ -99,10 +104,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1594494863190">
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser" timestamp="1594554751607">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594494863190" />
+    <state x="446" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594554751607" />
     <state x="345" y="24" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1594208093113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -135,5 +140,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594493192044" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1594541874554">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1594541874554" />
   </component>
 </project>
