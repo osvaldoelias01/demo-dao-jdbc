@@ -8,10 +8,13 @@ import model.entities.Seller;
 
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
 
         SellerDao sellerDao = DaoFactory.creatSellerDao();
 
@@ -32,16 +35,25 @@ public class Main {
             System.out.println(obj);
         }
 
-        System.out.println("====Teste 4: seller insert===");
+        System.out.println("\n====Teste 4: seller insert===");
         Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
         sellerDao.insert(newSeller);
         System.out.println("Inserted! New id = " + newSeller.getId());
 
-        System.out.println("====Teste 5: seller update===");
+        System.out.println("\n====Teste 5: seller update===");
         seller = sellerDao.findyById(1);
         seller.setName("Martha Waine");
         sellerDao.update(seller);
         System.out.println("Update completed");
+
+        System.out.println("\n====Teste 6: seller delete===");
+        System.out.println("Enter id for delete test: ");
+        int id = sc.nextInt();
+        sellerDao.deleteById(id);
+        System.out.println("Delete completed");
+
+        sc.close();
+
 
     }
 }
